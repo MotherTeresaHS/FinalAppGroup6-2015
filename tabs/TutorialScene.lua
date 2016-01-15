@@ -1,3 +1,12 @@
+-- Main
+-- Group6
+
+ -- Created by: allesandro
+-- Created on: Nov - 2015
+-- Created for: ICS2O
+-- this is the tutorial page
+
+
 TutorialScene = class()
 
 function TutorialScene:init()

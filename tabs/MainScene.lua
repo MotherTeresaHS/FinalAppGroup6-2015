@@ -1,10 +1,10 @@
 -- MainScene
 -- Lesson10
 
--- Created by: warsame
+-- Created by: allesandro
 -- Created on: Nov - 2015
 -- Created for: ICS2O
--- This is the second scene
+-- the home menu
 
 MainScene = class()
 local playButton
@@ -23,7 +23,7 @@ end
 function MainScene:draw()
     -- Codea does not automatically call this method
     
-    background(186, 186, 186, 255)
+    background(255, 0, 42, 255)
     playButton:draw()
     settingsButton:draw()
     
@@ -33,6 +33,6 @@ function MainScene:touched(touch)
     -- Codea does not automatically call this method
     playButton:touched(touch)
     if(playButton.selected == true) then
-        Scene.Change("tutorial")
+        Scene.Change("Level")
     end
 end

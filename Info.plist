@@ -11,11 +11,11 @@
 		<string>GameLogoScene</string>
 		<string>MainScene</string>
 		<string>TutorialScene</string>
+		<string>GameScene</string>
+		<string>PauseScene</string>
 		<string>HelperClass</string>
 	</array>
 	<key>Description</key>
 	<string>No description available</string>
-	<key>Icon</key>
-	<string>Icon.png</string>
 </dict>
 </plist>

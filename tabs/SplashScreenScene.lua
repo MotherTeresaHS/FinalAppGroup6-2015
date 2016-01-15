@@ -1,10 +1,10 @@
 -- SplashScreenScene
 -- FinalAppGroup6
 
--- Created by: Warsame
+-- Created by: allesandro
 -- Created on: Nov - 2015
 -- Created for: ICS2O
--- This is the first scene
+-- This is the splash scene
 
 SplashScreenScene = class()
 
@@ -20,7 +20,7 @@ function SplashScreenScene:draw()
     -- Codea does not automatically call this method
     
     background(0, 0, 0, 255)
-    sprite("Dropbox:CompanyLogo", 512, 384, 1024, 768)
+    sprite("Dropbox:companyLogo@3xl", 512, 384, 1024, 768)
     print(ElapsedTime)
     print("End time is " .. startTimeSplash + 3)
         if(startTimeSplash + 3 < ElapsedTime)then

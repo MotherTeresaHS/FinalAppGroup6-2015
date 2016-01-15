@@ -1,12 +1,13 @@
 -- Main
--- FinalAppGroup6
+-- Group6
 
-    -- Created by: Warsame
+ -- Created by: Allesandro
 -- Created on: Nov - 2015
 -- Created for: ICS2O
 -- This is the main starting point 
 
 --global variables
+
 
 
 -- Use this function to perform your initial setup
@@ -27,13 +28,17 @@ function setup()
     Scene("play", MainScene)
     Scene("endGame", GameOverScene)
     Scene("tutorial", TutorialScene)
-    Scene.Change("splash")
+    Scene("Level", GameScene)
+    Scene("pause", PauseScene)
+    Scene.Change("play")
+    
+    
 end
 
 -- This function gets called once every frame
 function draw()
     -- This sets a dark background color 
-    background(255, 255, 255, 255)
+    background(255, 0, 55, 255)
     
     Scene.Draw()
 end
