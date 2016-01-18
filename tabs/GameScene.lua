@@ -51,7 +51,7 @@ end
 
 function GameScene:draw()
     -- Codea does not automatically call this method
-    background(217, 217, 217, 255)
+    background(195, 195, 195, 255)
     mainMenuButton:draw()
     pauseButton:draw()
     
@@ -108,7 +108,7 @@ function GameScene:touched(touch)
    
     mainMenuButton:touched(touch)
     if(mainMenuButton.selected == true) then
-        Scene.Change("play")
+        Scene.Change("tutorial")
     end
     
     pauseButton:touched(touch)

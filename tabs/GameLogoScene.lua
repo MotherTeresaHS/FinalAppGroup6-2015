@@ -1,7 +1,7 @@
 -- GameLogoScene
 -- Lesson10
 
--- Created by: allesandro
+-- Created by: Alessandro Iaderosa
 -- Created on: Nov - 2015
 -- Created for: ICS2O
 -- This is the game logo scene
@@ -14,8 +14,7 @@ end
 
 function GameLogoScene:draw()
     -- Codea does not automatically call this method
-   -- background(255, 0, 0, 255)
- sprite("Dropbox:gameLogo@regularl", 512, 384, 1024, 768)
+    sprite("Dropbox:GAME LOGO", 512, 384, 1024, 768)
     print(ElapsedTime)
     print("End time is " .. startTimeLogo + 3)
         if(startTimeLogo + 3 < ElapsedTime)then

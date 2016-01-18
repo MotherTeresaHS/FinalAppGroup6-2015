@@ -11,6 +11,13 @@
 		<string>GameLogoScene</string>
 		<string>MainScene</string>
 		<string>TutorialScene</string>
+		<string>SettingsScene</string>
+		<string>CreditsScene</string>
+		<string>StoreScene</string>
+		<string>WorldScene</string>
+		<string>EasyWorldScene</string>
+		<string>MediumWorldScene</string>
+		<string>HardWorldScene</string>
 		<string>GameScene</string>
 		<string>PauseScene</string>
 		<string>HelperClass</string>

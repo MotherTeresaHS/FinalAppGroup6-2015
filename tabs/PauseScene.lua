@@ -24,6 +24,6 @@ function PauseScene:touched(touch)
     -- Codea does not automatically call this method
     playButton:touched(touch)
     if(playButton.selected == true) then
-        Scene.Change("Level")
+        Scene.Change("game")
     end
 end
