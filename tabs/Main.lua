@@ -22,7 +22,7 @@ function setup()
     
     
     -- create the scenes
-    
+    music("A Hero's Quest:Hero's Triumph", true, 1.0)
     Scene("splash", SplashScreenScene)
     Scene("logo", GameLogoScene)
     Scene("play", MainScene)

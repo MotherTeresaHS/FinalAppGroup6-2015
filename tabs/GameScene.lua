@@ -108,7 +108,7 @@ function GameScene:touched(touch)
    
     mainMenuButton:touched(touch)
     if(mainMenuButton.selected == true) then
-        Scene.Change("tutorial")
+        Scene.Change("easy")
     end
     
     pauseButton:touched(touch)
