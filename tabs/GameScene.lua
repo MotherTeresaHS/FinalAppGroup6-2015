@@ -10,6 +10,20 @@ local endTime
 local currentTime 
 
 
+-- easy world tables
+
+   easyWorld={}
+    table.insert(easyWorld,readImage("Planet Cute:Character Boy"))
+    table.insert(easyWorld,readImage("Planet Cute:Character Cat Girl"))
+    table.insert(easyWorld,readImage("Planet Cute:Character Horn Girl"))
+   
+
+
+
+
+
+
+
 function GameScene:init()
     --you can accept and set parameters here
     mainMenuButton = Button("Dropbox:Blue Back Circle Button", vec2(60, 708))
@@ -17,19 +31,12 @@ function GameScene:init()
   --  shapeOne = SpriteObject("Dropbox:triangle", 512, 460)
   
 
-    tab1={}
-    tab2={}
-    table.insert(tab1,readImage("Planet Cute:Character Boy"))
-    table.insert(tab1,readImage("Planet Cute:Character Cat Girl"))
-    table.insert(tab1,readImage("Planet Cute:Character Horn Girl"))
-    table.insert(tab1,readImage("Planet Cute:Character Pink Girl"))
-    table.insert(tab1,readImage("Planet Cute:Character Princess Girl"))
+    
 
-
-    shapeNameOne = 1
-    shapeNameTwo = 2
-    shapeNameThree = 3
-    shapeNameFour = 4
+    shapeNameOne = "Square"
+    shapeNameTwo = "Triangle"
+    shapeNameThree = "Circle"
+    shapeNameFour = "Rectangle"
 
     shapeOne = "Dropbox:Cube"
     

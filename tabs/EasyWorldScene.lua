@@ -72,6 +72,8 @@ function EasyWorldScene:touched(touch)
 
     level1Button:touched(touch)
     if(level1Button.selected == true)then 
+        worldLevel = "easy"
+        levelNumber = 1
         Scene.Change("game")   
     end
 end

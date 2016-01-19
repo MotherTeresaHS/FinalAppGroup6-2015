@@ -7,7 +7,8 @@
 -- This is the main starting point 
 
 --global variables
-
+worldLevel = nil
+levelNumber = nil
 
 -- Use this function to perform your initial setup
 function setup()
@@ -19,7 +20,7 @@ function setup()
     noStroke()
     pushStyle()
     
-    
+   -- sprite("Dropbox:Icon 5")
     
     -- create the scenes
     music("A Hero's Quest:Hero's Triumph", true, 1.0)
