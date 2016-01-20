@@ -13,9 +13,10 @@ local currentTime
 -- easy world tables
 
    easyWorld={}
-    table.insert(easyWorld,readImage("Planet Cute:Character Boy"))
-    table.insert(easyWorld,readImage("Planet Cute:Character Cat Girl"))
-    table.insert(easyWorld,readImage("Planet Cute:Character Horn Girl"))
+    
+--table.insert(easyWorld,readImage("Planet Cute:Character Boy"))
+-- table.insert(easyWorld,readImage("Planet Cute:Character Cat Girl"))
+ -- table.insert(easyWorld,readImage("Planet Cute:Character Horn Girl"))
    
 
 
@@ -38,7 +39,7 @@ function GameScene:init()
     shapeNameThree = "Circle"
     shapeNameFour = "Rectangle"
 
-    shapeOne = "Dropbox:Cube"
+    shapeOne = "Dropbox:circle"
     
     countDown = 31 * 1000
     startTime = ElapsedTime
@@ -77,7 +78,7 @@ function GameScene:draw()
    text ("Time left: " .. math.floor(currentTime/1000), 512, 700)
     -- shapes
    
-    sprite(shapeOne, 512, 460, 300, 300)
+    sprite(shapeOne, 512, 480, 300, 300)
     
     -- end shapes
     
