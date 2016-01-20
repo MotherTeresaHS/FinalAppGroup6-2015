@@ -8,9 +8,9 @@ function WorldScene:init()
     -- you can accept and set parameters here
     print("world level")
     WorldSceneBackButton = Button("Dropbox:Blue Back Circle Button", vec2(60, 710))
-    mediumWorldButton = Button("Dropbox:Meedium mode", vec2(500, 300))
-    easyWorldButton = Button("Dropbox:Easy mode", vec2(250, 300))
-    hardworldButton = Button("Dropbox:Hard mode", vec2(750, 300))    
+    mediumWorldButton = Button("Dropbox:medium mode", vec2(480, 300))
+    easyWorldButton = Button("Dropbox:Easy mode", vec2(200, 300))
+    hardworldButton = Button("Dropbox:Hard mode", vec2(760, 300))    
     
 end
 
