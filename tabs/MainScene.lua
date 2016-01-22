@@ -18,9 +18,9 @@ function MainScene:init()
 playButton = Button("Dropbox:Blue Forward Circle Button", vec2(WIDTH/2, HEIGHT/2))
 settingsButton = Button("Dropbox:Blue Settings Button", vec2(80, 80))
 creditsButton = Button("Dropbox:Blue Level Menu Button", vec2(950, 80))
-storeButton = Button("")
+storeButton = Button("Dropbox:shop icon", vec2(60, 710))
 
-
+--sprite("")
     
 end
 
@@ -38,6 +38,7 @@ function MainScene:draw()
    playButton:draw()
     settingsButton:draw()
     creditsButton:draw()
+    storeButton:draw()
 end
 
 function MainScene:touched(touch)
@@ -50,7 +51,10 @@ function MainScene:touched(touch)
     if(settingsButton.selected == true) then
         Scene.Change("settings")
     end
-    
+    storeButton:touched(touch)
+    if(storeButton.selected == true) then
+        Scene.Change("store")
+    end
     creditsButton:touched(touch)
     if(creditsButton.selected == true) then
         Scene.Change("credits")

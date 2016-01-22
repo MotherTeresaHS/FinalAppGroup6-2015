@@ -12,7 +12,7 @@ local currentTime
 
 -- easy world tables
 
-   easyWorld={}
+--   easyWorld={}
     
 --table.insert(easyWorld,readImage("Planet Cute:Character Boy"))
 -- table.insert(easyWorld,readImage("Planet Cute:Character Cat Girl"))
@@ -40,6 +40,10 @@ function GameScene:init()
     shapeNameFour = "Rectangle"
 
     shapeOne = "Dropbox:circle"
+    
+    rect1 = "Dropbox:rectangle"
+    
+    sprite()
     
     countDown = 31 * 1000
     startTime = ElapsedTime
@@ -71,7 +75,10 @@ function GameScene:draw()
    if (currentTime > 0) then
        currentTime = endTime - (ElapsedTime*1000)
    else
-       currentTime = 0
+       
+       if currentTime < 0 then
+            Scene.Change("over")
+       end
    end
     fill(0, 0, 0, 255)
     fontSize(50)
@@ -88,6 +95,7 @@ function GameScene:draw()
     -- style
     fill(255, 255, 255, 255)
     -- button left
+   
     rect(100, 100, 400, 100)
     -- top left
     rect(100, 210, 400, 100)
