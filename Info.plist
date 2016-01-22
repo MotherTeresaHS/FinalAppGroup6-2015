@@ -12,6 +12,10 @@
 		<string>MainScene</string>
 		<string>TutorialScene</string>
 		<string>SettingsScene</string>
+		<string>Ranking</string>
+		<string>StarsCollect</string>
+		<string>Store</string>
+		<string>Unlock</string>
 		<string>CreditsScene</string>
 		<string>StoreScene</string>
 		<string>WorldScene</string>
@@ -19,6 +23,7 @@
 		<string>MediumWorldScene</string>
 		<string>HardWorldScene</string>
 		<string>GameScene</string>
+		<string>GameOverScene</string>
 		<string>PauseScene</string>
 		<string>HelperClass</string>
 	</array>
